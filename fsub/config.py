@@ -40,8 +40,7 @@ FORCE_MESSAGE = os.getenv(
     "Hayolo Ketahuan Belum Join Channel dan Groupnya Yaa, Yuk Join Dulu Biar Bisa Buka Linknya."
     "\n\n"
     "Silakan Join Ke Channel dan Groupnya di Bawah Ini Terlebih Dahulu Yaa.",
-)
-
+    )
 ADMINS = [int(x) for x in (os.getenv("ADMINS").split())]
     
 CUSTOM_CAPTION = os.getenv("CUSTOM_CAPTION", None)
