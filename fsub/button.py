@@ -7,8 +7,8 @@ async def start_button(client):
     if not FORCE_SUB_:
         buttons = [
             [
-                InlineKeyboardButton(text="Bantuan", callback_data="help"),
-                InlineKeyboardButton(text="Tutup", callback_data="close"),
+                InlineKeyboardButton(text="Bantuan anjing", callback_data="help"),
+                InlineKeyboardButton(text="Tutup anjing", callback_data="close"),
             ],
         ]
         return buttons
@@ -52,7 +52,7 @@ async def fsub_button(client, message):
         try:
             dynamic_button.append([
                 InlineKeyboardButton(
-                    text="Coba Lagi",
+                    text="Coba Lagi anjing",
                     url=f"https://t.me/{client.username}?start={message.command[1]}",
                 )
             ])
