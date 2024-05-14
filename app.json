@@ -1,1 +1,48 @@
-{"name":"File Share - Telegram Bot","env":{"BOT_TOKEN":{"required":true},"ADMINS":{"required":true},"CHANNEL_DB":{"required":true},"DATABASE_URL":{"required":true},"DATABASE_NAME":{"required":true},"FORCE_SUB_1":{"required":false}},"formation":{"worker":{"quantity":1,"size":"eco"}}}
+{
+    "env": {
+        "BOT_TOKEN": {
+            "required": true,
+            "value": "12345:Abcde..."
+        },
+        "API_ID": {
+            "required": false,
+            "value": "2040"
+        },
+        "API_HASH": {
+            "required": false,
+            "value": "b18441a1ff607e10a989891a5462e627"
+        },
+        "MONGO_URL": {
+            "required": true,
+            "value": "mongodb+srv://..."
+        },
+        "DATABASE_ID": {
+            "required": true,
+            "value": "-100..."
+        },
+        "OWNER_ID": {
+            "required": true,
+            "value": ""
+        },
+        "ADMIN_IDS": {
+            "required": false,
+            "value": "111... 222... etc."
+        },
+        "PROTECT_CONTENT": {
+            "required": false,
+            "value": "True"
+        },
+        "FSUB_IDS": {
+            "required": false,
+            "value": "-100... -100... etc."
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    },
+    "name": "File Sharing - Bot - Must Join",
+    "stack": "container"
+}
