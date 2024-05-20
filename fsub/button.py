@@ -52,7 +52,7 @@ async def fsub_button(client, message):
         try:
             dynamic_button.append([
                 InlineKeyboardButton(
-                    text="Coba Lagi anjing",
+                    text="TEKAN LAGI",
                     url=f"https://t.me/{client.username}?start={message.command[1]}",
                 )
             ])
