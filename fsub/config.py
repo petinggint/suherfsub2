@@ -31,15 +31,15 @@ START_MESSAGE = os.getenv(
     "START_MESSAGE",
     "Halo {mention}!"
     "\n\n"
-    "Saya dapat menyimpan file pribadi di Channel tertentu dan pengguna lain dapat mengaksesnya dari link khusus.",
+    "sᴀʏᴀ ᴅᴀᴘᴀᴛ ᴍᴇɴʏɪᴍᴘᴀɴ ғɪʟᴇ ᴘʀɪʙᴀᴅɪ ᴅɪ ᴄʜᴀɴɴᴇʟ ᴛᴇʀᴛᴇɴᴛᴜ ᴅᴀɴ ᴘᴇɴɢɢᴜɴᴀ ʟᴀɪɴ ᴅᴀᴘᴀᴛ ᴍᴇɴɢᴀᴋsᴇsɴʏᴀ ᴅᴀʀɪ ʟɪɴᴋ ᴋʜᴜsᴜs.",
 )
 FORCE_MESSAGE = os.getenv(
     "FORCE_MESSAGE",
     "Halo {mention}!"
     "\n\n"
-    "Hayolo Ketahuan Belum Join Channel dan Groupnya Yaa, Yuk Join Dulu Biar Bisa Buka Linknya."
+    "Jᴏɪɴ ᴅᴜʟᴜ ᴄʜᴀɴɴᴇʟ ᴅᴀɴ ɢʀᴏᴜᴘ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴅᴜʟᴜ ʏᴀ, ʙᴀʀᴜ ʙɪsᴀ ᴅᴀᴘᴀᴛ ᴀᴋsᴇs ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴠɪᴅᴇᴏ ᴠɪᴅᴇᴏ ᴠɪʀᴀʟ ɴʏᴀ."
     "\n\n"
-    "Silakan Join Ke Channel dan Groupnya di Bawah Ini Terlebih Dahulu Yaa.",
+    "sɪʟᴀᴋᴀɴ Jᴏɪɴ ᴋᴇ ᴄʜᴀɴɴᴇʟ ᴅᴀɴ ɢʀᴏᴜᴘɴʏᴀ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ ʏᴀᴀ.",
     )
 ADMINS = [int(x) for x in (os.getenv("ADMINS").split())]
     
