@@ -79,7 +79,7 @@ class Bot(Client):
             sys.exit()
 
         self.LOGGER(__name__).info(
-            "Bot Aktif!\n\n"
+            "ᴀsᴜᴘᴀɴ ʏᴜᴋᴀsᴀ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴍᴇᴋ! 🔥\n\n"
         )
 
 
